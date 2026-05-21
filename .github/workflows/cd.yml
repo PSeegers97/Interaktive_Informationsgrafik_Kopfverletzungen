@@ -41,5 +41,5 @@ jobs:
           server: ${{secrets.SERVER_URL}}
           username: ${{secrets.SSH_USER}}
           password: ${{ secrets.SSH_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: kopfverletzungen-im-sport.de/dist/
+          local-dir: ./next/
+          server-dir: kopfverletzungen-im-sport.de/next/
