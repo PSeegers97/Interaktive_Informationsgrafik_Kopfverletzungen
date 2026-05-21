@@ -1,8 +1,48 @@
-import Image from "next/image";
+import * as React from "react";
+import { P5Canvas, Sketch } from "@p5-wrapper/react";
+import { NextReactP5Wrapper } from "@p5-wrapper/next";
+
+
+/* export default function useWindowDimensions() {
+  const [windowDimensions, setWindowDimensions] = React.useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  React.useEffect(() => {
+    const handleResize = () => {
+      setWindowDimensions({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);}, []);
+    return windowDimensions;
+  };
+ */
+
+
+
+const sketch: Sketch = (p5) => {
+  p5.setup = () => p5.createCanvas();
+};
 
 export default function Home() {
+  const [windowDimensions, setWindowDimensions] = React.useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+  
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className=""></div>
+    
+  );
+}
+
+/* 
+<div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
           className="dark:invert"
@@ -60,6 +100,4 @@ export default function Home() {
           </a>
         </div>
       </main>
-    </div>
-  );
-}
+    </div> */
