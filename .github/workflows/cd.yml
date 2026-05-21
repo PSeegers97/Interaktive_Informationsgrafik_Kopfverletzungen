@@ -41,6 +41,6 @@ jobs:
           server: ${{secrets.SERVER_URL}}
           username: ${{secrets.SSH_USER}}
           password: ${{ secrets.SSH_PASSWORD}}
-          local-dir: out/
+          local-dir: ./out/
           dangerous-clean-slate: true
-          server-dir: /kopfverletzungen-im-sport.de/
+          server-dir: ./kopfverletzungen-im-sport.de/
