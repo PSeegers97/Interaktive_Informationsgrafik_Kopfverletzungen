@@ -43,8 +43,8 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD}}
           local-dir: out/
           server-dir: kopfverletzungen-im-sport.de/out/
-          exclude: |
-            /node_modules/
-            /.git/
-            /.next/
-            /_next/
+          exclude: 
+            - node_modules/
+            - .git/
+            - .next/
+            - _next/
