@@ -44,7 +44,7 @@ jobs:
           local-dir: out/
           server-dir: kopfverletzungen-im-sport.de/out/
           exclude: |
-            **/node_modules/**
-            **/.git/**
-            **/.next/**
-            **/_next/**
+            **node_modules/**
+            **.git/**
+            **.next/**
+            **_next/**

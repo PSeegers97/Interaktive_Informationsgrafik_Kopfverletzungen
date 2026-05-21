@@ -30,7 +30,7 @@ const sketch: Sketch = (p5) => {
 };
 
 export default function Page() {
-  function compnentDidMount() {
+  function componentDidMount() {
     const [windowDimensions, setWindowDimensions] = React.useState({
     width: window.innerWidth,
     height: window.innerHeight,
