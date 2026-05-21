@@ -43,4 +43,4 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD}}
           local-dir: ./out/
           dangerous-clean-slate: true
-          server-dir: ./kopfverletzungen-im-sport.de/
+          server-dir: kopfverletzungen-im-sport.de/
