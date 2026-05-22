@@ -22,12 +22,12 @@ function sketch(p5) {
     p5.rotateZ(p5.frameCount * 0.01);
     p5.rotateX(p5.frameCount * 0.01);
     p5.rotateY(p5.frameCount * 0.01);
-    p5.plane(100);
+    p5.plane(400);
     p5.pop();
   };
 }
 
 
-export default function Home() {
+export default function Test() {
   return <P5Canvas sketch={sketch}  />;
 }
