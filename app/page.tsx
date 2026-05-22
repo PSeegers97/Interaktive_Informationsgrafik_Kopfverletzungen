@@ -29,11 +29,14 @@ const sketch: Sketch = (p5) => {
   p5.setup = () => p5.createCanvas();
 };
 
-export default function Home() {
-  const [windowDimensions, setWindowDimensions] = React.useState({
+export default function Page() {
+  function componentDidMount() {
+    const [windowDimensions, setWindowDimensions] = React.useState({
     width: window.innerWidth,
     height: window.innerHeight,
   });
+  }
+  
   
   return (
     <div className=""></div>
