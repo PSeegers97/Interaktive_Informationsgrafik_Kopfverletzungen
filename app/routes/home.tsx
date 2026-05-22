@@ -12,7 +12,7 @@ export function meta({}: Route.MetaArgs) {
 
 
 function sketch(p5) {
-  p5.setup = () => p5.createCanvas(600, 400, p5.WEBGL);
+  p5.setup = () => p5.createCanvas(p5.displayWidth, p5.displayHeight, p5.WEBGL);
 
   p5.draw = () => {
     p5.background(250);
@@ -28,5 +28,6 @@ function sketch(p5) {
 
 
 export default function Home() {
-  return <P5Canvas sketch={sketch} />;
+  const { height, width } = useWindowDimensions();
+  return <P5Canvas sketch={sketch}  />;
 }
