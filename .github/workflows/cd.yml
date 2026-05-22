@@ -40,11 +40,6 @@ jobs:
         with:
           server: ${{secrets.SERVER_URL}}
           username: ${{secrets.SSH_USER}}
-          password: ${{ secrets.SSH_PASSWORD}}
-          local-dir: out/
-          server-dir: kopfverletzungen-im-sport.de/out/
-          exclude: |
-            **node_modules/**
-            **.git/**
-            **.next/**
-            **_next/**
+          password: ${{secrets.SSH_PASSWORD}}
+          local-dir: ./build/
+          server-dir: kopfverletzungen-im-sport.de/
