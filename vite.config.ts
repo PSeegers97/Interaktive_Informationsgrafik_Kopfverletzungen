@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     tsconfigPaths: true,
     alias: {
-      $fonts: resolve('./public/assets/fonts')
+      $fonts: resolve('./assets/fonts')
     }
   },
 });

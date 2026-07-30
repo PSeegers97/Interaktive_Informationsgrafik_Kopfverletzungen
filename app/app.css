@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Frutiger;
-    src: url(./assets/fonts/FrutigerNeueVariableRoman.woff2);
+    src: url(./assets/fonts/FrutigerNeueVariableRoman.woff2) format('woff2');
 }
 
 @theme {
