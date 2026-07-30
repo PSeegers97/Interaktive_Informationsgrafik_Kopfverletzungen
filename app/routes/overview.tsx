@@ -17,17 +17,14 @@ export default function Tbi() {
 return (
     <div class="container h-screen">
     <header class="header flex flex-row justify-between h-1/8 items-center">
-            <div class="hidden flex flex-row gap-4">
-                <svg width="44" height="30" viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M42 16.7275C43.1046 16.7275 44 15.8321 44 14.7275C44 13.623 43.1046 12.7275 42 12.7275V14.7275V16.7275ZM0.585785 13.3133C-0.195263 14.0944 -0.195263 15.3607 0.585785 16.1418L13.3137 28.8697C14.0948 29.6507 15.3611 29.6507 16.1421 28.8697C16.9232 28.0886 16.9232 26.8223 16.1421 26.0412L4.82843 14.7275L16.1421 3.41383C16.9232 2.63278 16.9232 1.36645 16.1421 0.585403C15.3611 -0.195645 14.0948 -0.195645 13.3137 0.585403L0.585785 13.3133ZM42 14.7275V12.7275L2 12.7275V14.7275V16.7275L42 16.7275V14.7275Z" fill="black"/>
-                </svg>
-                <p class=""></p>
+            <div class=" flex flex-row gap-4 w-1/3">
+                
             </div>
-            <div class="flex flex-row gap-4">
-                <h1 class="">Übersicht</h1>
+            <div class="flex flex-row gap-4 items-center w-1/3 justify-center">
+                <h1 class="text-5xl">Übersicht</h1>
             </div>
-            <a href="Ablauf" class="flex flex-row gap-4">
-                <h2 class="">Ablauf</h2>
+            <a href="Ablauf" class="flex flex-row gap-4 items-center w-1/3 justify-end">
+                <h2 class="text-3xl">Ablauf</h2>
                 <svg width="44" height="30" viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 16.7275C0.89543 16.7275 0 15.8321 0 14.7275C0 13.623 0.89543 12.7275 2 12.7275L2 14.7275L2 16.7275ZM43.4142 13.3133C44.1953 14.0944 44.1953 15.3607 43.4142 16.1418L30.6863 28.8697C29.9052 29.6507 28.6389 29.6507 27.8579 28.8697C27.0768 28.0886 27.0768 26.8223 27.8579 26.0412L39.1716 14.7275L27.8579 3.41383C27.0768 2.63278 27.0768 1.36645 27.8579 0.585403C28.6389 -0.195645 29.9052 -0.195645 30.6863 0.585403L43.4142 13.3133ZM2 14.7275L2 12.7275L42 12.7275V14.7275V16.7275L2 16.7275L2 14.7275Z" fill="black"/>
                 </svg>

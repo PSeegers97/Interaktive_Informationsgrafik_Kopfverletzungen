@@ -14,19 +14,19 @@ export function meta({}: Route.MetaArgs) {
 export default function Trainer() {
 /*   return <P5Canvas sketch={sketch}  />; */
 return (
-  <div class="container h-screen">
-    <header class="header flex flex-row justify-between h-1/8 items-center">
-            <a href="Symptome" class="flex flex-row gap-4 items-center">
+  <div class="container h-screen flex flex-col gap-12">
+    <header class="header w-full flex flex-row justify-between h-1/8 items-center">
+            <a href="Symptome" class="flex flex-row gap-4 items-center w-1/3 justify-start">
                 <svg width="44" height="30" viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M42 16.7275C43.1046 16.7275 44 15.8321 44 14.7275C44 13.623 43.1046 12.7275 42 12.7275V14.7275V16.7275ZM0.585785 13.3133C-0.195263 14.0944 -0.195263 15.3607 0.585785 16.1418L13.3137 28.8697C14.0948 29.6507 15.3611 29.6507 16.1421 28.8697C16.9232 28.0886 16.9232 26.8223 16.1421 26.0412L4.82843 14.7275L16.1421 3.41383C16.9232 2.63278 16.9232 1.36645 16.1421 0.585403C15.3611 -0.195645 14.0948 -0.195645 13.3137 0.585403L0.585785 13.3133ZM42 14.7275V12.7275L2 12.7275V14.7275V16.7275L42 16.7275V14.7275Z" fill="black"/>
                 </svg>
                 <h2 class="text-3xl">Symptome</h2>
             </a>
-            <div class="flex flex-row gap-4 items-center">
+            <div class="flex flex-row gap-4 items-center w-1/3 justify-center">
                 <svg class="w-12.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.03 437.73"><path d="M265.24,91.46c0,.85.2,5.7.2,11.67,0,55.12-44.68,99.8-99.8,99.8s-99.8-44.68-99.8-99.8c0-5.47-.08-8.75.01-10.11,23.25-6.81,54.54-13.47,91.84-14.55,44.62-1.3,81.65,5.86,107.55,13Z" stroke="#000" stroke-miterlimit="10" stroke-width="2"/><path d="M267.01,88.84l-8.31,14.48c-2.03,3.54-6.4,4.94-10.13,3.29-86.51-38.13-148.45-11.03-167.15-.62-3.36,1.87-7.59.72-9.56-2.59l-7.6-12.82c13.44-9.08,50.49-31.51,102.84-31.47,50.29.04,86.2,20.8,99.91,29.72Z" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2"/><path d="M64.32,90.56s-.04,0-.04-.03C70.49,40.07,113.5,1,165.64,1s94.06,38.52,101.36,87.76c0,.03-.03.05-.06.04-105.94-66.27-200.23.05-202.63,1.76Z" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2"/><path d="M330.03,243.82c0-16.23-9.62-30.12-27.92-35.02-8.01-2.15-16.54-1.2-24.07,2.3-20.79,9.68-74.36,32.77-112.31,32.77s-89.99-22.07-111.52-31.88c-8.57-3.9-18.23-4.96-27.36-2.62-19.08,4.89-25.85,18.36-25.85,34.44v192.9l328.95-.06v-192.84" stroke="#000" stroke-miterlimit="10" stroke-width="2"/><path d="M123.33,315.87c0-24.3,19.7-43.99,43.99-43.99s43.99,19.7,43.99,43.99-19.7,43.99-43.99,43.99l1.05-.07v42.3h-45.04v-86.22" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2"/></svg>
                 <h1 class="text-5xl">Trainer</h1>
             </div>
-            <a href="Arzt" class="flex flex-row gap-4 items-center">
+            <a href="Arzt" class="flex flex-row gap-4 items-center w-1/3 justify-end">
                 <h2 class="text-3xl">Arzt</h2>
                 <svg width="44" height="30" viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 16.7275C0.89543 16.7275 0 15.8321 0 14.7275C0 13.623 0.89543 12.7275 2 12.7275L2 14.7275L2 16.7275ZM43.4142 13.3133C44.1953 14.0944 44.1953 15.3607 43.4142 16.1418L30.6863 28.8697C29.9052 29.6507 28.6389 29.6507 27.8579 28.8697C27.0768 28.0886 27.0768 26.8223 27.8579 26.0412L39.1716 14.7275L27.8579 3.41383C27.0768 2.63278 27.0768 1.36645 27.8579 0.585403C28.6389 -0.195645 29.9052 -0.195645 30.6863 0.585403L43.4142 13.3133ZM2 14.7275L2 12.7275L42 12.7275V14.7275V16.7275L2 16.7275L2 14.7275Z" fill="black"/>
@@ -125,6 +125,9 @@ return (
                     </details>
                 </div>
             </div>
+        </div>
+        <div class="h-1/8 w-full flex flex-col items-center">
+            <a href="Uebersicht" class="bg-gray-500 px-8 py-4 rounded-4xl text-white">Übersicht</a>
         </div>
   </div>
 )
