@@ -14,6 +14,8 @@
   --text-h3: 40px;
   --text-text: 24px;
   --text-3xl: 32px;
+
+  --color-background: #fff7f5;
 }
 
 @layer components {
