@@ -2,8 +2,6 @@ import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
 import { P5Canvas } from "@p5-wrapper/react";
 
-
-
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "New React Router App" },
@@ -24,17 +22,12 @@ function sketch(p5) {
     p5.rotateZ(p5.frameCount * 0.01);
     p5.rotateX(p5.frameCount * 0.01);
     p5.rotateY(p5.frameCount * 0.01);
-    p5.plane(100);
+    p5.plane(400);
     p5.pop();
   };
 }
 
 
-export default function Home() {
-/*   return <P5Canvas sketch={sketch}  />; */
-return (
-  <a href="Haftungsausschluss" class="w-screen h-screen flex flex-col items-center justify-center">
-    <h1 class="font-sans font-bold text-headline">Schädel-Hirn-Trauma</h1>
-  </a>
-)
+export default function Test() {
+  return <P5Canvas sketch={sketch}  />;
 }
