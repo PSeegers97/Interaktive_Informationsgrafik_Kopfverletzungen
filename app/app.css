@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Frutiger;
-    src: url(./public/assets/fonts/FrutigerNeueVariableRoman.woff2);
+    src: url(./assets/fonts/FrutigerNeueVariableRoman.woff2);
 }
 
 @theme {
@@ -28,9 +28,6 @@
 
 html,
 body {
-  @apply bg-white  font-sans text-black;
+  @apply bg-white font-sans text-black;
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
 }
