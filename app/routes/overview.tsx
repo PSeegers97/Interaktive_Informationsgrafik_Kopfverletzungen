@@ -15,6 +15,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Tbi() {
 /*   return <P5Canvas sketch={sketch}  />; */
 return (
+    <div class="bg-background">
     <div class="container h-screen">
     <header class="header flex flex-row justify-between h-1/8 items-center">
             <div class=" flex flex-row gap-4 w-1/3">
@@ -72,6 +73,7 @@ return (
 
         </footer>
     </div>
+</div>
 </div>
 )
 }

@@ -14,7 +14,8 @@ export function meta({}: Route.MetaArgs) {
 export default function Doctor() {
 /*   return <P5Canvas sketch={sketch}  />; */
 return (
-  <div class="container">
+    <div class="bg-background">
+  <div class="container h-screen">
     <header class="header flex flex-row justify-between h-31 items-center">
             <a href="Ablauf" class="flex flex-row gap-4 items-center w-1/3 justify-start">
                 <svg width="44" height="30" viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,6 +38,7 @@ return (
         <div class="h-1/8 w-full flex flex-col items-center">
             <a href="Uebersicht" class="bg-gray-500 px-8 py-4 rounded-4xl text-white">Übersicht</a>
         </div>
+  </div>
   </div>
 )
 }
