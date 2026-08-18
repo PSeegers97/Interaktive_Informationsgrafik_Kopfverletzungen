@@ -53,8 +53,8 @@ return (
             </a>
         </header>
 
-        <div ref={containerRef} class="mx-auto h-full">
-            <video src="./public/assets/videos/ausloeser/ausloeser.mp4" autoplay="true" />
+        <div ref={containerRef} class="mx-auto h-3/4 flex flex-col items-center justify-center">
+            <video class="h-full" src="./public/assets/videos/ausloeser/ausloeser.mp4" autoplay="true" />
         </div>
         <div class="h-1/8 w-full flex flex-col items-center">
             <a href="Uebersicht" class="bg-gray-500 px-8 py-4 rounded-4xl text-white">Übersicht</a>

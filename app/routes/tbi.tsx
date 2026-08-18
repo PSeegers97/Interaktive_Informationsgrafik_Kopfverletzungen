@@ -78,7 +78,10 @@ return (
   <div class="container flex flex-col gap-8 h-screen">
     <header class="header flex flex-row justify-between h-1/8 items-center">
       <div class="flex flex-row gap-4 items-center w-full justify-center pt-8">
+        <div class="flex flex-col">
           <h1 class="font-sans font-bold text-5xl">Schädel-Hirn-Trauma</h1>
+          <p class="">Verursachen Sie ein Schädel-Hirn-Trauma (mit der Maus/Finger)</p>
+        </div>
       </div>
       <a href="Uebersicht" class="flex flex-row gap-4 items-center w-1/3 justify-end">
                 <h2 class="text-3xl">Weiter</h2>
