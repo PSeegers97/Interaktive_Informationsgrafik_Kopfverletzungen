@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Frutiger;
+    src: url($fonts/FrutigerNeueVariableRoman.woff2) format('woff2');
+}
+
+@theme {
+  --font-sans: "Frutiger";
+
+
+  --text-headline: 100px;
+  --text-h2: 64px;
+  --text-h3: 40px;
+  --text-text: 24px;
+  --text-3xl: 32px;
+
+  --color-background: #fff7f5;
+}
+
+@layer components {
+  .container {
+    @apply container mx-auto px-4;
+    @apply sm:px-8;
+    @apply lg:px-16;
+    @apply xl:px-20;
+    @apply 2xl:px-24;
+  }
+}
+
+html,
+body {
+  @apply bg-background font-sans text-black;
+
+}
