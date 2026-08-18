@@ -57,7 +57,7 @@ return (
             <video class="h-full" src="./public/assets/videos/ausloeser/ausloeser.mp4" autoplay="true" />
         </div>
         <div class="h-1/8 w-full flex flex-col items-center">
-            <a href="Uebersicht" class="bg-white drop-shadow-lg hover:drop-shadow-2xl px-8 py-4 rounded-4xl text-white">Übersicht</a>
+            <a href="Uebersicht" class="bg-white drop-shadow-lg hover:drop-shadow-2xl px-8 py-4 rounded-4xl text-black">Übersicht</a>
         </div>
   </div>
 )
