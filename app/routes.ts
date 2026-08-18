@@ -18,4 +18,6 @@ export default [
     route("Arzt", "routes/doctor.tsx"),
     route("Behandlung", "routes/therapy.tsx"),
     route("Langzeitfolgen", "routes/time.tsx"),
+    route("Symptome/:symptomName", "routes/singlesymptom.tsx"),
+    
 ] satisfies RouteConfig;
