@@ -37,13 +37,13 @@ const handleClick = (symptomName, url, slug) => {
 }
 
 const symptoms = [
-    {id:0, symptom:"Schwindel", url:"../../public/assets/videos/Schwindel.mp4", slug:"Schwindel"},
+    {id:0, symptom:"Schwindel", url:"../../assets/videos/Schwindel.mp4", slug:"Schwindel"},
     {id:1, symptom:"Übelkeit und Erbrechen", url:"", slug:""},
-    {id:2, symptom:"Kopf- und Nackenschmerzen", url:"../../public/assets/videos/Kopfschmerzen.mp4", slug:"Kopf-und-Nackenschmerzen"},
+    {id:2, symptom:"Kopf- und Nackenschmerzen", url:"../../assets/videos/Kopfschmerzen.mp4", slug:"Kopf-und-Nackenschmerzen"},
     {id:3, symptom:"Schlafprobleme", url:"", slug:""},
-    {id:4, symptom:"Bewusstlosigkeit", url:"../../public/assets/illustration/bewusstlos.png", slug:"Bewusstlosigkeit"},
-    {id:5, symptom:"Brainfog", url:"../../public/assets/videos/Brainfog.mp4", slug:"Brainfog"},
-    {id:6, symptom:"Gedächtnis- und Aufmerksamkeitsprobleme", url:"../../public/assets/videos/Aufmerksamkeit.mp4", slug:"Gedaechtnis-und-Aufmerksamkeitsprobleme"},
+    {id:4, symptom:"Bewusstlosigkeit", url:"../../assets/illustration/bewusstlos.png", slug:"Bewusstlosigkeit"},
+    {id:5, symptom:"Brainfog", url:"../../assets/videos/Brainfog.mp4", slug:"Brainfog"},
+    {id:6, symptom:"Gedächtnis- und Aufmerksamkeitsprobleme", url:"../../assets/videos/Aufmerksamkeit.mp4", slug:"Gedaechtnis-und-Aufmerksamkeitsprobleme"},
 ]
 
 /*   return <P5Canvas sketch={sketch}  />; */
