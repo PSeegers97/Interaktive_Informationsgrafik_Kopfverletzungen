@@ -54,7 +54,7 @@ return (
         </header>
 
         <div ref={containerRef} class="mx-auto h-3/4 flex flex-col items-center justify-center">
-            <video class="h-full" src="./public/assets/videos/ausloeser/ausloeser.mp4" autoplay="true" />
+            <video class="h-full" src="./assets/videos/ausloeser/ausloeser.mp4" autoplay="true" />
         </div>
         <div class="h-1/8 w-full flex flex-col items-center">
             <a href="Uebersicht" class="bg-white drop-shadow-lg hover:drop-shadow-2xl px-8 py-4 rounded-4xl text-black">Übersicht</a>
