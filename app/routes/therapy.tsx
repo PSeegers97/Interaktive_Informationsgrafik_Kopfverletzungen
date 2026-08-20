@@ -88,7 +88,7 @@ return (
                             </div>
                         </summary>
                         <p class="pl-40">
-                            Sportler:innen sollten eine Sportpause einlegen, damit sich das Gehirn erholen kann. Für sportliche Tätigkeit wird das Gehirn benötigt, um die Bewegungsabläufe zu koordinieren. Gerade das ist für das Gehirn, welches sich im Ausnahmezustand befindet, kontraproduktiv. Es benötigt eine Sportpause, um den eigenen Haushalt wieder herzustellen. Nach ärztlicher Abklärung kann langsam wieder mit dem Sport begonnen werden.
+                            Sportler:innen sollten viel schlafen und sich ausruhen, um die Balance des Hormonhaushaltes wieder zu regulieren. 
                         </p>
                     </details>
         
