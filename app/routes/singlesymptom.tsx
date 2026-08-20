@@ -6,10 +6,10 @@ import {  useNavigate, useLocation } from "react-router";
 
 function CheckInput({link}) {
     if (link.includes('.png')) {
-        return (<img src={link} class="h-full"></img>)
+        return (<img class="h-full" src={link} class="h-full"></img>)
     }
     else {
-        return (<video src={link} autoplay="true"/>)
+        return (<video class="h-full" src={link} autoplay="true"/>)
     }
     
 }
